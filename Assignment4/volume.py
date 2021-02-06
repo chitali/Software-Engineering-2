@@ -1,30 +1,13 @@
-def checkInput(): 
-    while(True):
-        try:
-            length = float(input("Enter a length: "))
-            if length >= 0:
-                break
-        except ValueError:
-            print("Invalid Input.")
-    while(True):
-        try:
-            width = float(input("Enter a width: "))
-            if width >= 0:
-                break
-        except ValueError:
-            print("Invalid Input.")
-    while(True):
-        try:
-            height = float(input("Enter a height: "))
-            if height >= 0:
-                break
-        except ValueError:
-            print("Invalid Input")
-    calcVol(length, width, height)
-
 def calcVol(l, w, h):
-    print("Volume:",  l * w * h) 
+    try:
+        l = float(l)
+        w = float(w)
+        h = float(h)
+    except ValueError:
+         return "Error"
+    if l >= 0 and w >= 0 and h >= 0:
+        return  l * w * h
+    else:
+        return "Error"
 
-
-checkInput()
         
