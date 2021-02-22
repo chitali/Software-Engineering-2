@@ -4,6 +4,12 @@
 ---
 suite: my-tests
 tests:
+- py: print-hello-world
+  stdout: |
+    Hello, World!
+- sh: echo Hello, World!
+  stdout: |
+    Hello, World!
 - py: hello.py
   stdout: |
     Hello
