@@ -1,0 +1,22 @@
+title: My Tests
+tests:
+- py: hello.py
+- py: &sum |
+    # Sum of two numbers
+    import sys
+    a = int(sys.stdin.readline())
+    b = int(sys.stdin.readline())
+    c = a+b
+    sys.stdout.write("%s\n" % c)
+  stdin: |
+    2
+    2
+- py: *sum
+  stdin: |
+    1
+    -5
+- py: *sum
+  stdin: |
+    one
+    three
+  except: ValueError
