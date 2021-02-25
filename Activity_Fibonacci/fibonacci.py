@@ -9,6 +9,6 @@ def fib(num):
         return 1
     answer = [1,1]
     for i in range(2,num):
-        answer.append(answer[i-1] +answer[i-2])
+        answer.append(answer[i-1] + answer[i-2])
     return answer[-1]
 
