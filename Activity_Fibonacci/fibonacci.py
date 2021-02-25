@@ -12,3 +12,11 @@ def fib(num):
         answer.append(answer[i-1] + answer[i-2])
     return answer[-1]
 
+
+def factorial(num):
+    answer = 1
+    for i in range(1, num+1):
+        answer *= i
+    return answer
+
+
