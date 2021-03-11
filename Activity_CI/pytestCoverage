@@ -1,0 +1,78 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.9, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /home/buge/CSCourses/CS362/calculator/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/buge/CSCourses/CS362/Activity_CI
+plugins: cov-2.11.1
+collecting ... collected 3 items
+
+test_calculator.py::TestCalculator::test_add PASSED                      [ 33%]
+test_calculator.py::TestCalculator::test_subtract PASSED                 [ 66%]
+test_calculator.py::TestCalculator::test_multiply PASSED                 [100%]
+
+----------- coverage: platform linux, python 3.6.9-final-0 -----------
+Name                                                                                                         Stmts   Miss  Cover
+--------------------------------------------------------------------------------------------------------------------------------
+calculator.py                                                                                                    6      0   100%
+test_calculator.py                                                                                               8      0   100%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/_argcomplete.py                       37     36     3%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/_code/code.py                        697    675     3%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/_code/source.py                      142    127    11%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/_io/terminalwriter.py                112     66    41%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/_io/wcwidth.py                        25     16    36%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/assertion/__init__.py                 84     73    13%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/assertion/rewrite.py                 624    540    13%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/cacheprovider.py                     313    259    17%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/capture.py                           559    480    14%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/compat.py                            160    123    23%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/config/__init__.py                   804    688    14%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/config/argparsing.py                 252    207    18%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/debugging.py                         226    217     4%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/deprecated.py                         16     15     6%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/doctest.py                           351    341     3%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/faulthandler.py                       62     46    26%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/fixtures.py                          825    685    17%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/helpconfig.py                        132    122     8%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/junitxml.py                          373    371     1%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/logging.py                           401    293    27%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/main.py                              461    295    36%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/mark/__init__.py                     139    124    11%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/mark/structures.py                   241    224     7%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/monkeypatch.py                       170    157     8%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/nodes.py                             270    186    31%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/nose.py                               21     10    52%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/pastebin.py                           70     69     1%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/pathlib.py                           342    283    17%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/python.py                            841    638    24%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/reports.py                           278    248    11%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/runner.py                            299    179    40%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/setuponly.py                          56     54     4%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/setupplan.py                          24     22     8%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/skipping.py                          176    144    18%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/stepwise.py                           68     67     1%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/store.py                              34     27    21%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/terminal.py                          895    686    23%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/tmpdir.py                            104     89    14%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/unittest.py                          243    234     4%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/_pytest/warnings.py                           63     44    30%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/importlib_metadata/__init__.py               319    314     2%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/importlib_metadata/_compat.py                 18     17     6%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/pluggy/_tracing.py                            41     31    24%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/pluggy/callers.py                            122     88    28%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/pluggy/hooks.py                              175    101    42%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/pluggy/manager.py                            195    153    22%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/py/_builtin.py                               112     78    30%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/py/_code/__init__.py                           0      0   100%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/py/_code/code.py                             524    408    22%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/py/_error.py                                  52     49     6%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/py/_path/common.py                           278    230    17%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/py/_path/local.py                            693    619    11%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/py/_vendored_packages/apipkg/__init__.py     151    132    13%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/pytest_cov/compat.py                          19     15    21%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/pytest_cov/embed.py                           80     74     8%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/pytest_cov/engine.py                         221    200    10%
+/home/buge/CSCourses/CS362/calculator/lib/python3.6/site-packages/pytest_cov/plugin.py                         204    186     9%
+--------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                        14208  11855    17%
+
+
+============================== 3 passed in 0.69s ===============================
