@@ -1,0 +1,3 @@
+[submodule "Activtity_CI"]
+	path = Activtity_CI
+	url = https://github.com/chitali/Activtity_CI.git
